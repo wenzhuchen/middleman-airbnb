@@ -11,7 +11,8 @@
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
   </head>
-  <body>
+  <!-- give a div to the body with the matching id -->
+  <body id="<%= page_classes %>">
     <%= partial "layouts/navbar" %>   <!-- inject layouts/_navbar.html.erb -->
     <%= yield %>                      <!-- Page content is injected here -->
     <%= partial "layouts/footer" %>
