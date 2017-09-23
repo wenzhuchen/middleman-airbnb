@@ -1,0 +1,13 @@
+.flats {
+  .container {
+    padding-top: 20px;
+  }
+    .header-flat-details {
+      text-align: left;
+      img {
+        width: 100px;
+        box-shadow: 0 1px 5px 0 $gray,0 1px 0 0 $light-gray;
+        margin-bottom: 10px;
+      }
+    }
+  }
